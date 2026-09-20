@@ -1,0 +1,14 @@
+/build/
+/bin/
+*.o
+*.obj
+*.pdb
+*.ilk
+*.tmp
+*.exe
+*.log
+/log.txt
+*.fifo
+.env
+.DS_Store
+Thumbs.db
