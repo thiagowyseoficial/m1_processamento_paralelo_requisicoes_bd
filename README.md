@@ -7,6 +7,16 @@
 **Data dos experimentos:** 19 de setembro de 2026  
 **Prazo informado no enunciado:** 21 de setembro de 2026, às 23h59
 
+## Relatório e diagramas
+
+- [Relatório completo em PDF](docs/Relatorio_M1_Sistemas_Operacionais.pdf)
+- [Arquitetura geral do sistema](docs/imagens/arquitetura-sistema.png)
+- [Fluxo de uma requisição INSERT](docs/imagens/fluxo-requisicao.png)
+
+![Arquitetura geral do sistema](docs/imagens/arquitetura-sistema.png)
+
+![Fluxo de uma requisição INSERT](docs/imagens/fluxo-requisicao.png)
+
 ## Resumo
 
 Este trabalho implementa um gerenciador simplificado de requisições a um banco
@@ -58,7 +68,8 @@ O projeto contém seis arquivos de código:
 O arquivo `banco.json` guarda os registros. O arquivo `log.txt` é criado ou
 acrescentado pelo servidor. Ambos usam caminhos fixos relativos à pasta de execução.
 
-Não há bibliotecas externas, scripts de compilação ou pastas auxiliares.
+Não há bibliotecas externas ou scripts de compilação. A pasta `docs/` contém
+o relatório em PDF e os diagramas do sistema.
 Os arquivos `.exe` e `.obj` são produtos da compilação; não são código adicional.
 
 ### 2.1 Estrutura do banco
